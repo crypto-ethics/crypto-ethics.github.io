@@ -19,10 +19,10 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-  
+
   .thumbnail , .img-responsive  {
     max-width: 450px;
-  } 
+  }
 }
 
 /*header color*/
@@ -230,4 +230,31 @@ ul.icons li:last-child {
 .img-responsive {
     display: block;
     max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: grey;
+  color: black;
 }
